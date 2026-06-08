@@ -1,5 +1,8 @@
-<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="50" cy="50" r="48" stroke="#CC0000" stroke-width="4"/>
-    <path d="M50 20L58.2257 37.0708L76.9421 39.7937L63.471 53.036L66.6508 71.9563L50 63.0292L33.3492 71.9563L36.529 53.036L23.0579 39.7937L41.7743 37.0708L50 20Z" fill="#CC0000"/>
-    <text x="50" y="90" font-family="Inter, sans-serif" font-size="12" font-weight="800" fill="#CC0000" text-anchor="middle">REWARDS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" width="300" height="360">
+  <!-- Outer red ring -->
+  <circle cx="150" cy="130" r="120" fill="#CC0000"/>
+  <!-- White ring -->
+  <circle cx="150" cy="130" r="80" fill="white"/>
+  <!-- Inner red circle -->
+  <circle cx="150" cy="130" r="42" fill="#CC0000"/>
 </svg>
