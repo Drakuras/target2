@@ -1,6 +1,6 @@
 :root {
-    --target-red: #CC0000;
-    --target-dark: #A30000;
+    --brand-accent: #CC0000;
+    --brand-accent-dark: #A30000;
     --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     --card-bg: rgba(255, 255, 255, 0.95);
     --text-main: #1a1a1a;
@@ -50,7 +50,7 @@ body {
 .blob-1 {
     width: 400px;
     height: 400px;
-    background: var(--target-red);
+    background: var(--brand-accent);
     top: -100px;
     right: -100px;
     animation: move 20s infinite alternate;
@@ -162,7 +162,7 @@ h1 {
 }
 
 .step-number {
-    background: var(--target-red);
+    background: var(--brand-accent);
     color: white;
     width: 28px;
     height: 28px;
@@ -188,7 +188,7 @@ h1 {
 
 .cta-button {
     display: block;
-    background: var(--target-red);
+    background: var(--brand-accent);
     color: white;
     text-decoration: none;
     padding: 18px 30px;
@@ -263,7 +263,7 @@ h1 {
     position: absolute;
     right: 20px;
     font-size: 1.2rem;
-    color: var(--target-red);
+    color: var(--brand-accent);
     transition: var(--transition);
 }
 
@@ -290,7 +290,7 @@ h1 {
 }
 
 .footer-links a {
-    color: var(--target-red);
+    color: var(--brand-accent);
     text-decoration: none;
     margin: 0 10px;
     font-size: 0.85rem;
